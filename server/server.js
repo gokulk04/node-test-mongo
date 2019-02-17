@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const ObjectID = require("mongodb").ObjectID;
 const _ = require("lodash"); 
 
-// const mongoose = require("./db/mongoose.js");
+const mongoose = require("./db/mongoose.js");
 const User = require("./models/user").User; 
 
 const todo_routes = require("./routes/todos.js")
